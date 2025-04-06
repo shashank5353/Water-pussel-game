@@ -33,15 +33,10 @@
   
 }
 .name{
-  margin-top: 0vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
   font-size: 6vh;
-  background-color: #5cddcd;
-  background: linear-gradient(#2a6e8c,#63d1f9,#03a2db,#02363637);
-/*  font-weight: 700;*/
-  background-clip: text;
-  color:#00000000;
-  /*color:#000;*/
-/*  text-shadow: 0.1vh 0.1vh 0.1vh #00000066;*/
+  color: #423e3e;
 }
 
 .menu_bar{
