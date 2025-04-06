@@ -94,13 +94,14 @@ for(let i=0;i<num_glass;i++){
   gap_of_glass=Math.floor(100/(num_glass/2));
 pre_left[i]=`${10+u*33}vw`;
 pre_left[i]=`${gap_of_glass/num_glass*2+u*gap_of_glass}vw`;
-
+let h=37;
+let t_h=20;
 //console.log(gap_of_glass)
-cap_top[i]=`${16+v*38}vh`;
-pre_top[i]=`${20+v*38}vh`;
-s_pre_top[i]=`${16+v*38}vh`;
+cap_top[i]=`${t_h+v*h}vh`;
+pre_top[i]=`${t_h+4+v*h}vh`;
+s_pre_top[i]=`${t_h+v*h}vh`;
 on_left[i]=`${u*gap_of_glass-gap_of_glass}vw`;
-on_top[i]=`${v*38}vh`;
+on_top[i]=`${v*h}vh`;
 u++;
 }
 }
